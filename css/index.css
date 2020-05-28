@@ -1,0 +1,196 @@
+.hero-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container video {
+  width: 100%;
+}
+.hero-container h1 {
+  font-family: 'Open Sans', sans-serif;
+  z-index: 1;
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  display: flex;
+}
+.graphics {
+  height: 100vh;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.graphics .card {
+  margin-top: 3%;
+  width: 30%;
+}
+.graphics .card img {
+  height: 60%;
+}
+.graphics .card h5 {
+  font-size: 1rem;
+}
+.graphics .card p {
+  font-size: 1rem;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  height: 40vh;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), Black);
+}
+.hero h1 {
+  margin-top: 10%;
+  font-size: 4em;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.staff-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.staff-cards .card {
+  margin-top: 3%;
+  width: 30%;
+}
+.staff-cards .card h5 {
+  font-size: 1rem;
+}
+.staff-cards .card p {
+  font-size: 1rem;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  background-color: #1B1B1B;
+}
+.nav-bar a {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 3%;
+  text-decoration: none;
+  color: white;
+  font-size: 30PX;
+  margin-bottom: 0;
+}
+.nav-bar a:hover {
+  text-decoration: none;
+  color: grey;
+}
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    background-color: #1B1B1B;
+  }
+  .nav-bar a {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 3%;
+    text-decoration: none;
+    color: white;
+    font-size: 20PX;
+    margin-bottom: 0;
+  }
+  .nav-bar a:hover {
+    text-decoration: none;
+    color: grey;
+  }
+  .hero-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    background-color: #1B1B1B;
+  }
+  .hero-container a {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 3%;
+    text-decoration: none;
+    color: white;
+    font-size: 20PX;
+    margin-bottom: 0;
+  }
+  .hero-container a:hover {
+    text-decoration: none;
+    color: grey;
+  }
+  .hero-container video {
+    position: relative;
+    width: 100%;
+  }
+  .hero-container h1 {
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .graphics {
+    height: 100vh;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .graphics .card {
+    margin-top: 1%;
+    width: 40%;
+  }
+  .graphics .card img {
+    height: 60%;
+  }
+  .graphics .card h5 {
+    font-size: 10px;
+  }
+  .graphics .card p {
+    font-size: 1rem;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    background-color: #1B1B1B;
+    margin-top: 0;
+    height: 40vh;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), Black);
+  }
+  .hero a {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 3%;
+    text-decoration: none;
+    color: white;
+    font-size: 20PX;
+    margin-bottom: 0;
+  }
+  .hero a:hover {
+    text-decoration: none;
+    color: grey;
+  }
+  .hero h1 {
+    margin-top: 10%;
+    font-size: 4em;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+  .staff-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .staff-cards .card {
+    margin-top: 3%;
+    width: 40%;
+  }
+  .staff-cards .card h5 {
+    font-size: 1rem;
+  }
+  .staff-cards .card p {
+    font-size: 10px;
+  }
+}
