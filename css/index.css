@@ -8,7 +8,7 @@
   width: 100%;
 }
 .hero-container h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   z-index: 1;
   position: absolute;
   color: white;
@@ -19,10 +19,10 @@
 .graphics {
   height: 100vh;
   margin-top: 5%;
-  margin-bottom: 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 20%;
 }
 .graphics .card {
   margin-top: 3%;
@@ -89,7 +89,6 @@ footer a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-bottom: 10%;
 }
 .staff-cards .card {
   margin-top: 3%;
